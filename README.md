@@ -44,7 +44,7 @@ The <source> element has the following attributes:
 -   sizes - defines a single width descriptor, a single media query with width descriptor, or a comma-delimited list of media queries with a width descriptor
 -   type - defines the MIME type
 
-The browser will use the attribute values to load the most appropriate image. The browser will use the first `<source>` element with a matching hint and ignore any following `<source>` tags.
+The browser will use the attribute values to load the most appropriate image. **The browser will use the first `<source>` element with a matching hint and ignore any following `<source>` tags.**
 
 The `<img>` element is required as the last child tag of the `<picture>` declaration block. The `<img>` element is used to provide backward compatibility for browsers that do not support the `<picture>` element, or if none of the `<source>` tags matched.
 
